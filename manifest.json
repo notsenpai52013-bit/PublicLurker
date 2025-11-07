@@ -1,13 +1,13 @@
 {
-  "name": "PublicLurker",
+  "name": "Lurker V3",
   "version": "7.5.3",
-  "description": "PublicLurker Client release by DeadFish7 for Miniblox",
+  "description": "Lurker Client release by Not_Senpai for Miniblox",
   "manifest_version": 3,
   "permissions": ["declarativeNetRequest", "scripting", "tabs"],
   "host_permissions": ["https://miniblox.io/*"],
   "declarative_net_request": {"rule_resources": [{"id": "ruleset_1", "enabled": true, "path": "rules.json"}]},
 	"content_scripts": [{"matches": ["https://miniblox.io/*"], "js": ["content.js"], "run_at": "document_start"}],
 	"web_accessible_resources": [{"resources": ["publiclurker.js"], "matches": ["<all_urls>"]}],
-	"icons": {"16": "PublicLurkerLogo.png", "48": "PublicLurkerLogo.png", "128": "PublicLurkerLogo.png"}
+	"icons": {"16": "hello2.png", "48": "hello2.png", "128": "hello2.png"}
 }
 
