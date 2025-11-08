@@ -1,6 +1,5 @@
 # PublicLurker 7.5.3, Release1.1
 
-Reach out to @deadfish7 on Discord for any questions!
 
 ## Installation:
 
